@@ -1,0 +1,36 @@
+body{
+    background-image: url("../images/purple-diamond-wallpaper.jpg");
+}
+#Game-Title{
+    font-size: 20px;
+    color: white;
+    background: rgb(92, 63, 95);
+    margin: 5px 10px 5px 10px;
+    padding:3%;
+    text-align: center;
+}
+
+#instructions{
+    background: rgb(162, 132, 167);
+    margin: 5px 10px 5px 10px;
+}
+#random{
+    background: rgb(127, 97, 155);
+    margin: 5px 5px 5px 10px;
+}
+#count{
+    background: rgb(120, 73, 148);
+    margin: 5px 5px 5px 1px;
+    width: 100%;
+}
+#total{
+    background: rgb(186, 163, 204);
+    margin: 5px 10px 5px 10px;
+}
+#score{
+    background: rgb(186, 163, 204);
+    margin:5px 10px 5px 10px;
+    height: 100px;
+
+}
+

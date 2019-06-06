@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Unit-4-Game</title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+        crossorigin="anonymous">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+        <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div id="Game-Title" class="col-sm-4">CrystalsCollector!</div>
+            <div class="col-sm-4"></div>
+            <div class="col-sm-4"></div>
+        </div>
+        <div class="row">
+            <div id="instructions" class="col-sm-6">
+                <p>You will be given a random number at the start of the game.</p>
+                <p>There are four crystals below. By clicking on a crystal you will add a specific amount of points to your
+                    total score.</p>
+                <p>You will win the game by matching your total score to random number, you lose the game if your total score
+                    goes above the random number.</p>
+                <p>The value of each crystal is hidden from you until you click on it.</p>
+                <p>Each time when the game starts, the game will change the values of each crystal.</p>
+            </div>
+            <div class="col-sm-6"></div>
+        </div>
+        <div class="row">
+            <div id="random" class="col-sm-3">Random Number</div>
+            <div id="count" class="col-sm-2"><p id="banner"></p><p id="Winner">Wins:</p><p id="Loser">Losses:</p></div>
+            <div class="col-sm-8"></div>
+        </div>
+        <div class="row">
+            <div class="col-sm-1 red">
+                <button id="red" type="button" class="btn btn-danger"> &#128142;</button>
+            </div>
+            <div class="col-sm-1 blue">
+                <button id="blue" type="button" class="btn btn-primary"> &#128142;</button>
+            </div>
+            <div class="col-sm-1 yellow">
+                <button id="yellow" type="button" class="btn btn-warning"> &#128142;</button>
+            </div>
+            <div class="col-sm-1 green">
+                <button id="green" type="button" class="btn btn-success"> &#128142;</button>
+            </div>
+            <div class="col-sm-8"></div>
+        </div>
+        <div class="row">
+            <div id="total" class="col-sm-3"><p>Your total score is:</p></div>
+            <div class="col-sm-9"></div>
+        </div>
+        <div class="row">
+            <div id="score" class="col-sm-3"></div>
+            <div class="col-sm-9"></div>
+        </div>
+    </div>
+    <script src="./assets/javascript/game.js"></script>
+</body>
+
+</html>
